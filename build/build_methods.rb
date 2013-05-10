@@ -2,9 +2,9 @@ require 'rubygems'
 require 'nokogiri'
 require_relative 'build_parameters'
 
-def get_xml_string_from_defintion_files(files)
+def get_xml_string_from_defintion_files
   memory_string = ""
-  files.each do |definition_file|
+  $definition_files.each do |definition_file|
     file = File.open(definition_file)
     memories = Nokogiri::XML(file).root.search("./memories/memory")
     memories.each do |memory|
@@ -15,11 +15,11 @@ def get_xml_string_from_defintion_files(files)
   return memory_string
 end
 
-def get_xml_from_definition_files(files)
+def get_xml_from_definition_files
   builder = Nokogiri::XML::Builder.new do |xml|
     xml.radio(:version => $chirp_version) {
       xml.memories {
-        xml << get_xml_string_from_defintion_files(files)
+        xml << get_xml_string_from_defintion_files
       }
       xml.banks {}
     }
