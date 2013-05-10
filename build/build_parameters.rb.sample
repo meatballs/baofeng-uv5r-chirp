@@ -1,3 +1,6 @@
+# Make a copy of this file called build_parameter.rb
+# 
+
 $definition_files = Dir.glob('../channel_definitions/uk/*.chirp')
 $output_file_name = "radio_config.chirp"
 $chirp_version = "0.1.1"
