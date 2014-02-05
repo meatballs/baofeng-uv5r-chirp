@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<radio version="0.1.1">
+  <memories>
+    <memory location="82">
+      <shortName>GB3PZ</shortName>
+      <longName>GB3PZ</longName>
+      <frequency units="MHz">430.900000</frequency>
+      <squelch id="rtone" type="repeater">
+        <tone>82.5</tone>
+      </squelch>
+      <squelch id="ctone" type="ctcss">
+        <tone>88.5</tone>
+      </squelch>
+      <squelch id="dtcs" type="dtcs">
+        <code>023</code>
+        <polarity>NN</polarity>
+      </squelch>
+      <squelchSetting>rtone</squelchSetting>
+      <duplex>positive</duplex>
+      <offset units="MHz">7.600000</offset>
+      <mode>FM</mode>
+      <tuningStep units="kHz">5.00000</tuningStep>
+    </memory>
+  </memories>
+<banks/>
+</radio>

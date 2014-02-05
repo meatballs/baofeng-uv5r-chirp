@@ -1,0 +1,46 @@
+<?xml version="1.0"?>
+<radio version="0.1.1">
+  <memories>
+    <memory location="91">
+      <shortName>S1</shortName>
+      <longName>SCT1 VM</longName>
+      <frequency units="MHz">164.050000</frequency>
+      <squelch id="rtone" type="repeater">
+        <tone>88.5</tone>
+      </squelch>
+      <squelch id="ctone" type="ctcss">
+        <tone>88.5</tone>
+      </squelch>
+      <squelch id="dtcs" type="dtcs">
+        <code>023</code>
+        <polarity>NN</polarity>
+      </squelch>
+      <squelchSetting/>
+      <duplex>none</duplex>
+      <offset units="MHz">0.000000</offset>
+      <mode>FM</mode>
+      <tuningStep units="kHz">5.00000</tuningStep>
+    </memory>
+    <memory location="92">
+      <shortName>S2</shortName>
+      <longName>SCT2 VM</longName>
+      <frequency units="MHz">164.062500</frequency>
+      <squelch id="rtone" type="repeater">
+        <tone>88.5</tone>
+      </squelch>
+      <squelch id="ctone" type="ctcss">
+        <tone>88.5</tone>
+      </squelch>
+      <squelch id="dtcs" type="dtcs">
+        <code>023</code>
+        <polarity>NN</polarity>
+      </squelch>
+      <squelchSetting/>
+      <duplex>none</duplex>
+      <offset units="MHz">0.000000</offset>
+      <mode>FM</mode>
+      <tuningStep units="kHz">5.00000</tuningStep>
+    </memory>
+  </memories>
+  <banks/>
+</radio>

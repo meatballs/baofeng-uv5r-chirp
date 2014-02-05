@@ -1,0 +1,106 @@
+<?xml version="1.0"?>
+<radio version="0.1.1">
+  <memories>
+    <memory location="93">
+      <shortName>S3</shortName>
+      <longName>SCT3 VH</longName>
+      <frequency units="MHz">169.087500</frequency>
+      <squelch id="rtone" type="repeater">
+        <tone>88.5</tone>
+      </squelch>
+      <squelch id="ctone" type="ctcss">
+        <tone>88.5</tone>
+      </squelch>
+      <squelch id="dtcs" type="dtcs">
+        <code>023</code>
+        <polarity>NN</polarity>
+      </squelch>
+      <squelchSetting/>
+      <duplex>none</duplex>
+      <offset units="MHz">0.000000</offset>
+      <mode>FM</mode>
+      <tuningStep units="kHz">5.00000</tuningStep>
+    </memory>
+    <memory location="94">
+      <shortName>S4</shortName>
+      <longName>SCT4 VH</longName>
+      <frequency units="MHz">169.312500</frequency>
+      <squelch id="rtone" type="repeater">
+        <tone>88.5</tone>
+      </squelch>
+      <squelch id="ctone" type="ctcss">
+        <tone>88.5</tone>
+      </squelch>
+      <squelch id="dtcs" type="dtcs">
+        <code>023</code>
+        <polarity>NN</polarity>
+      </squelch>
+      <squelchSetting/>
+      <duplex>none</duplex>
+      <offset units="MHz">0.000000</offset>
+      <mode>FM</mode>
+      <tuningStep units="kHz">5.00000</tuningStep>
+    </memory>
+    <memory location="95">
+      <shortName>S5</shortName>
+      <longName>SCT5  VH</longName>
+      <frequency units="MHz">173.050000</frequency>
+      <squelch id="rtone" type="repeater">
+        <tone>88.5</tone>
+      </squelch>
+      <squelch id="ctone" type="ctcss">
+        <tone>88.5</tone>
+      </squelch>
+      <squelch id="dtcs" type="dtcs">
+        <code>023</code>
+        <polarity>NN</polarity>
+      </squelch>
+      <squelchSetting/>
+      <duplex>none</duplex>
+      <offset units="MHz">0.000000</offset>
+      <mode>FM</mode>
+      <tuningStep units="kHz">5.00000</tuningStep>
+    </memory>
+    <memory location="96">
+      <shortName>S6</shortName>
+      <longName>SCT6 VH</longName>
+      <frequency units="MHz">173.062500</frequency>
+      <squelch id="rtone" type="repeater">
+        <tone>88.5</tone>
+      </squelch>
+      <squelch id="ctone" type="ctcss">
+        <tone>88.5</tone>
+      </squelch>
+      <squelch id="dtcs" type="dtcs">
+        <code>023</code>
+        <polarity>NN</polarity>
+      </squelch>
+      <squelchSetting/>
+      <duplex>none</duplex>
+      <offset units="MHz">0.000000</offset>
+      <mode>FM</mode>
+      <tuningStep units="kHz">5.00000</tuningStep>
+    </memory>
+    <memory location="97">
+      <shortName>S7</shortName>
+      <longName>SCT7 VH</longName>
+      <frequency units="MHz">173.087500</frequency>
+      <squelch id="rtone" type="repeater">
+        <tone>88.5</tone>
+      </squelch>
+      <squelch id="ctone" type="ctcss">
+        <tone>88.5</tone>
+      </squelch>
+      <squelch id="dtcs" type="dtcs">
+        <code>023</code>
+        <polarity>NN</polarity>
+      </squelch>
+      <squelchSetting/>
+      <duplex>none</duplex>
+      <offset units="MHz">0.000000</offset>
+      <mode>FM</mode>
+      <tuningStep units="kHz">5.00000</tuningStep>
+    </memory>
+  </memories>
+  <banks/>
+</radio>
