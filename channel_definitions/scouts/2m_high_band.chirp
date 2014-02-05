@@ -43,7 +43,7 @@
     </memory>
     <memory location="95">
       <shortName>S5</shortName>
-      <longName>SCT5  VH</longName>
+      <longName>SCT5 VH</longName>
       <frequency units="MHz">173.050000</frequency>
       <squelch id="rtone" type="repeater">
         <tone>88.5</tone>
